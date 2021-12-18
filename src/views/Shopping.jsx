@@ -2,6 +2,7 @@ import React from 'react'
 import { useReducer } from 'react'
 import AddItem from '../components/AddItem'
 import ListItems from '../components/ListItems'
+import './Shopping.css'
 
 export default function Shopping() {
     const initialItemList = [

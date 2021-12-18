@@ -1,0 +1,51 @@
+@import url('https://fonts.googleapis.com/css2?family=Libre+Franklin:wght@700&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Libre+Franklin:wght@700&family=Roboto:wght@500&display=swap');
+
+html{
+    background-color: #1D4873;
+}
+
+li{
+    list-style: none;
+    font-family: 'Libre Franklin', sans-serif;
+    color: #1D4873;
+    border-style: solid;
+    border-radius: 5px;
+    background-color:#86BDF4;
+    width: 20%;
+    margin-left: 38%;
+    font-size: 18px;
+
+}
+
+form{
+    display: flex;
+    justify-content: center;
+}
+
+form input {
+    height: 30px;
+}
+
+form button{
+    background-color:#86BDF4;
+    width: 90px;
+    border-radius: 5px;
+    font-family: 'Roboto', sans-serif;
+    border: none;
+    font-size: 18px;
+}
+
+form button:hover{
+    background-color: #3D97F2;
+}
+
+button{
+    background-color: #1D4873 ;
+    font-family: 'Roboto', sans-serif;
+    margin-left: 10px;
+    color: white;
+    border-radius: 5px;
+
+}

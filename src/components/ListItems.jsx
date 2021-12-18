@@ -1,5 +1,6 @@
 import React from 'react'
 import Item from './Item'
+import './ListItems.css'
 
 export default function ListItems({ items, handleChangeItem, handleDeleteItem }) {
     return (
